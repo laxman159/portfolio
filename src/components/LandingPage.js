@@ -21,20 +21,21 @@ export default function LandingPage() {
     tl.to(".hidetext", {
       color: "black",
     });
-    tl.to(".landing-page", { backgroundColor: "white" });
+    tl.to(".header, .landing-page", { backgroundColor: "white" });
+    // tl.to(".landing-page", { backgroundColor: "white" });
     tl.to("h2", { color: "black" });
-    tl.fromTo("hr", { opacity: 0, height: 0 }, { height: "100%", opacity: 1 });
+    tl.fromTo("hr", { opacity: 0, height: 0 }, { height: "90%", opacity: 1 });
     tl.fromTo(
       ".leftland",
       { opacity: 0, height: 0 },
       { height: "90%", opacity: 1 }
     );
-    tl.to(".btn", { opacity: 1 });
   }, []);
   return (
     <div className="landing-page">
       <div className="leftland">
         <h1>LS</h1>
+
         <div className="icons">
           <i>
             <AiFillGithub />
@@ -48,17 +49,21 @@ export default function LandingPage() {
         </div>
       </div>
       <hr />
+
       <div className="rightland">
         <h2>
           <span className="hidetext ">I am Laxman</span>
         </h2>
         <h2>
-          <span className="hidetext">
-            I am a UI/ UX designer during daytime
-          </span>
+          <span className="hidetext">I am a UI/UX designer during daytime</span>
         </h2>
         <h2>
           <span className="hidetext">& developer by nights.</span>
+        </h2>
+        <h2>
+          <span className="hidetext">
+            <Button text="Portfolio" />
+          </span>
         </h2>
       </div>
     </div>

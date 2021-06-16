@@ -1,0 +1,23 @@
+.header {
+  width: auto;
+  height: 5vh;
+  background-color: black;
+  margin-top: -18px;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      padding: 10px;
+      margin-left: 10px;
+      cursor: pointer;
+      transition: all 0.5s ease-in-out;
+    }
+    li:hover {
+      text-decoration: underline;
+    }
+  }
+}

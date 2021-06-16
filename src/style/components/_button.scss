@@ -4,17 +4,15 @@ button {
   width: 100px;
   height: 40px;
   font-size: 1rem;
-  position: absolute;
-  left: 210px;
-  top: 400px;
+
+  color: black;
 }
 
 button:hover {
+  border: solid 1px red;
 }
 
 @media (max-width: 768px) {
   button {
-    left: 80px;
-    top: 350px;
   }
 }
