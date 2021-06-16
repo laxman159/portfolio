@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+<h1 align="center">Welcome to portfilio-2021 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-v1-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: Mit" src="https://img.shields.io/badge/License-Mit-yellow.svg" />
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> My personal portfolio 2021
 
-## Available Scripts
+<h2 align="center">
+  <img src="" alt="portfolio gif!" width="400px" />
+  <br>
+</h2>
 
-In the project directory, you can run:
+### ✨ [Live](https://laxmanportfolio.netlify.app/)
 
-### `yarn start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+⚡️ Modern UI Design + Reveal Animations\
+⚡️ Made with React\
+⚡️ One Page Layout\
+⚡️ Animation using Gsap + Custom SCSS\
+⚡️ Fully Responsive\
+⚡️ Valid HTML5 & CSS3\
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started 🚀
 
-### `yarn test`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites 📋
 
-### `yarn build`
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn@v1.21.1 or higher
+```
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How To Use 🔧
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+From your command line, first clone portfolio-2021:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Clone this repository
+$ git clone https://github.com/laxman159/portfolio-2021.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Go into the repository
+$ cd portfolio-2021
+```
 
-## Learn More
+Then you can install the dependencies either using NPM or Yarn:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Using NPM:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Install dependencies
+$ npm install
 
-### Code Splitting
+# Start development server
+$ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Using Yarn:
 
-### Analyzing the Bundle Size
+```bash
+# Install dependencies
+$ yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Start development server
+$ yarn start
+```
 
-### Making a Progressive Web App
+## Landing Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+There are two types of Landing Page available
 
-### Advanced Configuration
+1. LandingArt (Default) - uses GSAP
+2. LandingPage - uses Typing animation and Lottie animations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Deployment 📦
 
-### Deployment
+Once you have done with your setup. You need to put your website online!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+I recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
 
-### `yarn build` fails to minify
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Laxman Sharma**
+
+- Website: https://laxmanportfolio.netlify.app/
+- Github: [@laxman159](https://github.com/laxman159)
+- LinkedIn: [@Laxman Sharma](https://linkedin.com/in/Laxman Sharma)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
