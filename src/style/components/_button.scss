@@ -1,0 +1,20 @@
+button {
+  border: solid 1px black;
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  font-size: 1rem;
+  position: absolute;
+  left: 210px;
+  top: 400px;
+}
+
+button:hover {
+}
+
+@media (max-width: 768px) {
+  button {
+    left: 80px;
+    top: 350px;
+  }
+}

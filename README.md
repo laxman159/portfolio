@@ -9,7 +9,7 @@
 > My personal portfolio 2021
 
 <h2 align="center">
-  <img src="https://user-images.githubusercontent.com/56950807/121796574-ac3eda80-cc37-11eb-865b-b983ee1b1e71.gif" alt="portfolio gif!" width="400px" />
+  <img src="" alt="portfolio gif!" width="400px" />
   <br>
 </h2>
 
