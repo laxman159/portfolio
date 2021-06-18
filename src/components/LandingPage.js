@@ -24,13 +24,15 @@ export default function LandingPage() {
     tl.to(".header, .landing-page", { backgroundColor: "white" });
     // tl.to(".landing-page", { backgroundColor: "white" });
     tl.to("h2", { color: "black" });
-    tl.fromTo("hr", { opacity: 0, height: 0 }, { height: "90%", opacity: 1 });
+    tl.fromTo("hr ", { opacity: 0, height: 0 }, { height: "90%", opacity: 1 });
     tl.fromTo(
       ".leftland",
       { opacity: 0, height: 0 },
       { height: "90%", opacity: 1 }
     );
+    tl.fromTo(".slide", { opacity: 0 }, { opacity: 1 });
   }, []);
+
   return (
     <div className="landing-page">
       <div className="leftland">

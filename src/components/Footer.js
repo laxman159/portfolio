@@ -9,18 +9,17 @@ export default function Footer() {
         </div>
 
         <div className="middle">
-          <span>You only have one chance to make a first impression</span>
+          <span>You only have one chance to make a first impression.</span>
           <br />
           <span>Lets make it good</span>
           <hr />
         </div>
         <div className="right">
           <h3>Navigation</h3>
-          <span>home</span>
-          <span>home</span>
-          <span>home</span>
-          <span>home</span>
-          <span>home</span>
+          <span>Home</span>
+          <span>Projects</span>
+          <span>About Me</span>
+          <span>Contact</span>
         </div>
       </div>
     </div>

@@ -1,8 +1,31 @@
-import React from "react";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import React, { useEffect, useRef } from "react";
 import { FaTools } from "react-icons/fa";
 import { GiSpiderWeb, GiNinjaHeroicStance } from "react-icons/gi";
 
 export default function Skills() {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".skills",
+        start: "-100px top",
+        // scrub: 1,
+        // markers: true,
+        // scrub: 0.001,
+        ease: "Power1.inOut",
+      },
+    });
+    tl.to(".card", {
+      opacity: 1,
+      stagger: 0.2,
+      duration: 1,
+      width: "auto",
+    });
+    tl.to("h3,span", { opacity: 1, duration: 0.3 });
+  }, []);
+
   return (
     <div className="skills">
       <h1>What do I do?</h1>
@@ -24,7 +47,7 @@ export default function Skills() {
           <span>
             <GiSpiderWeb />
           </span>
-          <h3>Web Development</h3>
+          <h3 className="tit">Web Development</h3>
           <h3>
             This is one aspect of programming which always keeps on changing and
             improving, and I cant seem to refrain myself from learning new web
@@ -37,12 +60,12 @@ export default function Skills() {
           <span>
             <GiNinjaHeroicStance />
           </span>
-          <h3>And a whole bunch of things</h3>
+          <h3 className="tit">A whole bunch of things</h3>
           <h3>
             Be it WebGl, ThreeJs, Android, Flutter, React Native, Blender, i've
             tried them all and i'm constantly learning building up my skills,
             making beautiful things and in the process improving UI/UX skills,
-            i'm also a gamer love to play and analyze games, we can get
+            i'm also a gammer love to play and analyze games, we can get
             inspiration from all kinds of things if we look closely.
           </h3>
         </div>
