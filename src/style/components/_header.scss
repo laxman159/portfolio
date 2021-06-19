@@ -1,8 +1,11 @@
 .header {
-  width: 100%;
+  width: auto;
   height: 8vh;
   background-color: black;
-  margin-top: -18px;
+  // margin-top: -18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   // position: fixed;
 
   // margin-left: 50px;
