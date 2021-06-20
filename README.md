@@ -9,11 +9,11 @@
 > My personal portfolio 2021
 
 <h2 align="center">
-  <img src="" alt="portfolio gif!" width="400px" />
+  <img src="https://media.giphy.com/media/CQ59Qif6fp7QmhepYf/giphy.gif" alt="portfolio gif!" width="400px" />
   <br>
 </h2>
 
-### ✨ [Live](https://laxmanportfolio.netlify.app/)
+### ✨ [Live](https://portfoliolaxman159.netlify.app/)
 
 ## Features
 
@@ -52,7 +52,7 @@ From your command line, first clone portfolio-2021:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/laxman159/portfolio-2021.git
+$ git clone https://github.com/laxman159/portfolio.git
 
 # Go into the repository
 $ cd portfolio-2021
@@ -80,13 +80,6 @@ $ yarn
 $ yarn start
 ```
 
-## Landing Page
-
-There are two types of Landing Page available
-
-1. LandingArt (Default) - uses GSAP
-2. LandingPage - uses Typing animation and Lottie animations
-
 ## Deployment 📦
 
 Once you have done with your setup. You need to put your website online!
@@ -97,7 +90,7 @@ I recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST
 
 👤 **Laxman Sharma**
 
-- Website: https://laxmanportfolio.netlify.app/
+- Website: https://portfoliolaxman159.netlify.app/
 - Github: [@laxman159](https://github.com/laxman159)
 - LinkedIn: [@Laxman Sharma](https://linkedin.com/in/Laxman Sharma)
 

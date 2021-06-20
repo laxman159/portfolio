@@ -7,7 +7,7 @@ export default function Footer() {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".footer",
-        start: "-150px top",
+        start: "-250px top",
         // scrub: 1,
         // markers: true,
         // scrub: 0.001,
