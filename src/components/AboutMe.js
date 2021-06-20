@@ -1,26 +1,51 @@
-import React from "react";
-import profile from "../assets/profile.jpg";
+import gsap from "gsap/gsap-core";
+import React, { useEffect } from "react";
+import dp from "../assets/dp.jpg";
 
 export default function AboutMe() {
+  useEffect(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".aboutme",
+        start: "-150px top",
+        // scrub: 1,
+        // markers: true,
+        // scrub: 0.001,
+        ease: "Power1.inOut",
+      },
+    });
+    tl.fromTo(
+      ".left",
+      { x: "-110%" },
+      { x: 0, duration: 0.5, ease: "Power3.inOut" }
+    );
+    tl.fromTo(
+      ".right",
+      { x: "110%" },
+      { x: 0, duration: 0.5, ease: "Power1.inOut" }
+    );
+  }, []);
   return (
     <div className="aboutme">
       <div className="left">
         <h2>About me</h2>
         <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-          voluptatum inventore deserunt, cum possimus itaque mollitia iste
-          labore nam, debitis, numquam tempora iure vitae voluptates ullam
-          ipsam. Eaque, nostrum aliquid. Odit sunt, rem neque eligendi similique
-          esse ut rerum modi dolores aspernatur. Tempora explicabo quia
-          voluptatem quibusdam saepe, est autem similique sit necessitatibus
-          provident. Corrupti, odit necessitatibus. Cumque, ullam officia. Minus
-          perspiciatis animi, autem blanditiis debitis temporibus, atque quae
-          vero unde quibusdam enim, voluptatibus illum minima magnam. Fuga
-          ducimus cum earum, repudiandae pariatur officiis aliquam eligendi iure
+          A developer from the hills of Meghalaya, constanly developing and
+          learning new things. Got into web development a year ago just when the
+          Coronavirus started before that I was doing Android App development
+          for 1+ years and from there never looked back, since then I have been
+          in Love with Web Dev, especially Frontend development, user
+          interaction and user experience is what i'm focused on. Apart from
+          programming i'm very passinated for travelling and exploration of new
+          places, love to ride, I'm an excellent sports person as well love
+          playing baskeball, workingout all of these have made me a very
+          hardworking person and anything that I do I give it my 100%. And if
+          you have read all of this you must really like me 😁, dont be shy send
+          me a message about your project or some insparation.
         </span>
       </div>
       <div className="right">
-        <img src={profile} alt="" />
+        <img src={dp} alt="" />
       </div>
     </div>
   );

@@ -54,7 +54,7 @@ export default function LandingPage() {
 
       <div className="rightland">
         <h2>
-          <span className="hidetext ">I am Laxman</span>
+          <span className="hidetext ">I am Laxman,</span>
         </h2>
         <h2>
           <span className="hidetext">I am a UI/UX designer during daytime</span>

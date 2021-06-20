@@ -1,6 +1,25 @@
-import React from "react";
+import gsap from "gsap/gsap-core";
+import React, { useEffect } from "react";
+import { HashLink } from "react-router-hash-link";
 
 export default function Footer() {
+  useEffect(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".footer",
+        start: "-150px top",
+        // scrub: 1,
+        // markers: true,
+        // scrub: 0.001,
+        ease: "Power1.inOut",
+      },
+    });
+    tl.to(".footer", {
+      opacity: 1,
+      stagger: 0.2,
+      duration: 1,
+    });
+  }, []);
   return (
     <div className="footer">
       <div className="content">
@@ -16,10 +35,15 @@ export default function Footer() {
         </div>
         <div className="right">
           <h3>Navigation</h3>
-          <span>Home</span>
-          <span>Projects</span>
-          <span>About Me</span>
-          <span>Contact</span>
+          <HashLink className="hashlink" to="#lp" smooth>
+            <span>Home</span>
+          </HashLink>
+          <HashLink className="hashlink" to="#sk" smooth>
+            <span>Projects</span>
+          </HashLink>
+          <HashLink className="hashlink" to="#am" smooth>
+            <span>About Me</span>
+          </HashLink>
         </div>
       </div>
     </div>

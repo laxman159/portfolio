@@ -20,11 +20,13 @@ function App() {
       <div id="projects">
         <Projects />
       </div>
+      <div id="am">
+        <AboutMe />
+      </div>
       <div id="contact">
         <ContactForm />
       </div>
-      {/* <AboutMe /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
