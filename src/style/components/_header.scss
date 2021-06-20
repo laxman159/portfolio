@@ -33,3 +33,26 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    width: auto;
+    height: 8vh;
+    background-color: black;
+    // margin-top: -18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // position: fixed;
+
+    // margin-left: 50px;
+
+    ul {
+      .hl {
+        li {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}

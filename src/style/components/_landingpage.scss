@@ -26,6 +26,10 @@
         height: auto;
         opacity: 0.5;
         font-size: 2rem;
+        a {
+          text-decoration: none;
+          color: black;
+        }
       }
       i:hover {
         opacity: 1;

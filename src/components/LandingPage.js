@@ -40,13 +40,22 @@ export default function LandingPage() {
 
         <div className="icons">
           <i>
-            <AiFillGithub />
+            <a href="https://github.com/laxman159" target="_blank">
+              <AiFillGithub />
+            </a>
           </i>
           <i>
-            <AiOutlineInstagram />
+            <a href="https://Instagram.com/_lax.man_" target="_blank">
+              <AiOutlineInstagram />
+            </a>
           </i>
           <i>
-            <AiFillLinkedin />
+            <a
+              href="https://www.linkedin.com/in/laxman-sharma-360791145/"
+              target="_blank"
+            >
+              <AiFillLinkedin />
+            </a>
           </i>
         </div>
       </div>

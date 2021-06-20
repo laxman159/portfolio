@@ -1,5 +1,6 @@
 import gsap from "gsap/gsap-core";
 import React, { useEffect } from "react";
+import Project1 from "../assets/Project1.png";
 
 export default function Projects() {
   useEffect(() => {
@@ -27,58 +28,60 @@ export default function Projects() {
   return (
     <div id="container" className="project-container">
       <div className="module ">
-        <div className="img"></div>
+        <div className="img">
+          <img src={Project1} alt="" />
+        </div>
         <div className="details">
-          <h3>Project one </h3>
+          <a href="http://shillong-choice.herokuapp.com/" target="_blank">
+            <h3>Shillong Choice</h3>
+          </a>
+
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            reprehenderit eligendi ad, dolor, deleniti tempore quo error quae
-            asperiores hic sit dolorem quia nostrum consequatur, dolore iusto.
-            Fugiat, officiis enim. Consequuntur distinctio expedita accusamus
-            veniam maxime exercitationem fugit modi perferendis itaque sunt a
-            in, sit fugiat saepe corrupti illo? Iste quisquam possimus facilis
-            cum similique quis quia accusantium iusto earum? Perspiciatis dolore
-            distinctio sequi ab, molestiae aperiam exercitationem sit ad
-            assumenda adipisci fugit, impedit hic, quaerat dolorum iusto. Atque
-            eius ut perferendis fugiat? Nulla dolor quia vitae maxime, alias
+            A full stack website made for a student project
+            <ul>
+              Technology Used
+              <br />
+              <li>React</li>
+              <li>Nodejs</li>
+              <li>MongoDb</li>
+              <li>Express</li>
+              <li>Redux</li>
+            </ul>
           </span>
         </div>
       </div>
       <div className="module ">
-        <div className="img"></div>
+        <div className="img">
+          <img
+            src="https://user-images.githubusercontent.com/56950807/104883203-6e8c9d00-598a-11eb-9c80-c86d0000feda.png"
+            alt=""
+          />
+        </div>
         <div className="details">
-          <h3>Project two</h3>
+          <a
+            href="https://github.com/laxman159/departmental-social-app"
+            target="_blank"
+          >
+            <h3>The Dept</h3>
+          </a>
+
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            reprehenderit eligendi ad, dolor, deleniti tempore quo error quae
-            asperiores hic sit dolorem quia nostrum consequatur, dolore iusto.
-            Fugiat, officiis enim. Consequuntur distinctio expedita accusamus
-            veniam maxime exercitationem fugit modi perferendis itaque sunt a
-            in, sit fugiat saepe corrupti illo? Iste quisquam possimus facilis
-            cum similique quis quia accusantium iusto earum? Perspiciatis dolore
-            distinctio sequi ab, molestiae aperiam exercitationem sit ad
-            assumenda adipisci fugit, impedit hic, quaerat dolorum iusto. Atque
-            eius ut perferendis fugiat? Nulla dolor quia vitae maxime, alias
+            A firebase social network made for the departments of every college
+            with focus towards the educational aspect rather then the social
+            aspect.
+            <ul>
+              Technology Used
+              <br />
+              <li>Firebase</li>
+              <li>Java</li>
+            </ul>
           </span>
         </div>
       </div>
-      <div className="module ">
-        <div className="img"></div>
-        <div className="details">
-          <h3>Project 3</h3>
-          <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            reprehenderit eligendi ad, dolor, deleniti tempore quo error quae
-            asperiores hic sit dolorem quia nostrum consequatur, dolore iusto.
-            Fugiat, officiis enim. Consequuntur distinctio expedita accusamus
-            veniam maxime exercitationem fugit modi perferendis itaque sunt a
-            in, sit fugiat saepe corrupti illo? Iste quisquam possimus facilis
-            cum similique quis quia accusantium iusto earum? Perspiciatis dolore
-            distinctio sequi ab, molestiae aperiam exercitationem sit ad
-            assumenda adipisci fugit, impedit hic, quaerat dolorum iusto. Atque
-            eius ut perferendis fugiat? Nulla dolor quia vitae maxime, alias
-          </span>
-        </div>
+      <div className="module module3 ">
+        <a href="https://github.com/laxman159" target="_blank">
+          View All Projects
+        </a>
       </div>
     </div>
   );
