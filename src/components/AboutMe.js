@@ -7,7 +7,7 @@ export default function AboutMe() {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".aboutme",
-        start: "-150px top",
+        start: "-180px top",
         // scrub: 1,
         // markers: true,
         // scrub: 0.001,
@@ -15,14 +15,14 @@ export default function AboutMe() {
       },
     });
     tl.fromTo(
-      ".left",
-      { x: "-110%" },
-      { x: 0, duration: 0.5, ease: "Power3.inOut" }
-    );
-    tl.fromTo(
       ".right",
       { x: "110%" },
       { x: 0, duration: 0.5, ease: "Power1.inOut" }
+    );
+    tl.fromTo(
+      ".left",
+      { x: "-110%" },
+      { x: 0, duration: 0.5, ease: "Power3.inOut" }
     );
   }, []);
   return (

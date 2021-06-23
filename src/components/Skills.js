@@ -51,7 +51,7 @@ export default function Skills() {
           <h3>
             This is one aspect of programming which always keeps on changing and
             improving, and I cant seem to refrain myself from learning new web
-            dev technologies be it React with Server Side Rendering (which is a
+            dev technologies be it React with Client Side Rendering (which is a
             pain in the ass sometimes), therefore love NextJs, but HTML, CSS and
             JavaScript with always be my bread and butter.
           </h3>
