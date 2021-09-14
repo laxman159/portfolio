@@ -38,7 +38,7 @@ export default function Skills() {
           <h3>
             I love front-end development and my primary goal in life is the be a
             UI/UX designer, there is something special in making beautiful
-            thinks pleasent to the eye and amazing to use, i'm constantly
+            things pleasent to the eye and amazing to use, i'm constantly
             learning new things every day I may not have a lot of work
             experience but wherever I do I give it my 110%.
           </h3>

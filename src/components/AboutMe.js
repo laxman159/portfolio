@@ -28,25 +28,25 @@ export default function AboutMe() {
   return (
     <div className="aboutme">
       <div className="left">
-        <h2>About me</h2>
+        <h2> About me </h2>{" "}
         <span>
           A developer from the hills of Meghalaya, constanly developing and
-          learning new things. Got into web development a year ago just when the
+          learning new things.Got into web development a year ago just when the
           Coronavirus started before that I was doing Android App development
-          for 1+ years and from there never looked back, since then I have been
+          for 1 + years and from there never looked back, since then I have been
           in Love with Web Dev, especially Frontend development, user
-          interaction and user experience is what i'm focused on. Apart from
-          programming i'm very passinated for travelling and exploration of new
-          places, love to ride, I'm an excellent sports person as well love
+          interaction and user experience is what i 'm focused on. Apart from
+          programming i 'm very passinated for travelling and exploration of new
+          places, love to ride, I 'm an excellent sports person as well love
           playing baskeball, workingout all of these have made me a very
-          hardworking person and anything that I do I give it my 100%. And if
-          you have read all of this you must really like me 😁, dont be shy send
-          me a message about your project or some insparation.
-        </span>
-      </div>
+          hardworking person and anything that I do I give it my 100 % .And if
+          you have read all of this you must really like me😁, dont be shy send
+          me a message about your project or some inspiration.{" "}
+        </span>{" "}
+      </div>{" "}
       <div className="right">
         <img src={dp} alt="" />
-      </div>
+      </div>{" "}
     </div>
   );
 }
