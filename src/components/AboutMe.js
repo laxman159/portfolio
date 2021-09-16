@@ -17,12 +17,12 @@ export default function AboutMe() {
     tl.fromTo(
       ".right",
       { x: "110%" },
-      { x: 0, duration: 0.5, ease: "Power1.inOut" }
+      { x: 0, duration: 0.5, ease: "easeInOut" }
     );
     tl.fromTo(
       ".left",
       { x: "-110%" },
-      { x: 0, duration: 0.5, ease: "Power3.inOut" }
+      { x: 0, duration: 0.5, ease: "easeInOut" }
     );
   }, []);
   return (

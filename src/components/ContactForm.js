@@ -33,6 +33,13 @@ export default function ContactForm() {
     tl.to(".contact-btn", {
       opacity: 1,
     });
+    tl.fromTo(
+      ".contact-right",
+      {
+        opacity: 0,
+      },
+      { opacity: 1 }
+    );
   }, []);
   return (
     <form onSubmit={handleSubmit}>

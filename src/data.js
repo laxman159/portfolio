@@ -5,7 +5,7 @@ import Backend from "./assets/Backend.png";
 
 export const ShillongChoice = {
   liveUrl: "http://shillong-choice.herokuapp.com/",
-  gitUrl: "http://www.github.com/laxman159/Shillong-choice",
+  gitUrl: "http://www.github.com/laxman159/shillong-choice",
   img: Sc,
   name: "Shillong Choice",
   details: "A full stack website made for selling pizza",
@@ -14,21 +14,21 @@ export const ShillongChoice = {
 
 export const TheDept = {
   liveUrl: null,
-  gitUrl: "http://www.github.com/laxman159/Departemtal-social-app",
+  gitUrl: "http://www.github.com/laxman159/departmental-social-app",
   name: "TheDept",
   img: Dept,
   details:
-    "A departmental social android application with focus towards the betterment of college students and better communation of Departemnt Faculty and its student ",
+    "A departmental social android application with focus towards the betterment of college students and better communication of Department Faculty and its Student ",
   techUsed: ["Java, ", "Firebase Database, ", "Firestore, ", "Android"],
 };
 
 export const RestaurantBackend = {
   liveUrl: null,
-  gitUrl: "http://www.github.com/laxman159/Backend-Restaurant",
+  gitUrl: "http://www.github.com/laxman159/Restaurant-service-backend",
   name: "Restaurant Backend API",
   img: Backend,
   details:
-    "A backend API made for the food industry with freatues all create restaurant, menu, orders. With Client, Owner and Dilivery Roles and all the services that comes with each role",
+    "A backend API made for the food industry with features like create restaurant, menu, orders. With Client, Owner and Dilivery Roles and all the services that comes with each role",
   techUsed: [
     "NestJs, ",
     "GraphQL, ",
@@ -44,6 +44,6 @@ export const Portfolio = {
   name: "Portfolio Template",
   img: Port,
   details:
-    "A Portofolio website for developers to showoff there work, single page layout with website opening animations and all arount animations",
+    "A Portofolio website for developers to showoff their work, single page layout with website opening animations and all around animations",
   techUsed: ["JavaScript, ", "React, ", "Gsap, ", "Scss, "],
 };
