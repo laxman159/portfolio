@@ -14,20 +14,12 @@ export default function AboutMe() {
         ease: "Power1.inOut",
       },
     });
-    tl.fromTo(
-      ".right",
-      { x: "110%" },
-      { x: 0, duration: 0.5, ease: "easeInOut" }
-    );
-    tl.fromTo(
-      ".left",
-      { x: "-110%" },
-      { x: 0, duration: 0.5, ease: "easeInOut" }
-    );
+    tl.fromTo(".right", { x: "110%" }, { x: 0, duration: 0.5 });
+    tl.fromTo(".left", { x: "-110%" }, { x: 0, duration: 0.5 });
   }, []);
   return (
-    <div className="aboutme">
-      <div className="left">
+    <div className='aboutme'>
+      <div className='left'>
         <h2> About me </h2>{" "}
         <span>
           A developer from the hills of Meghalaya, constanly developing and
@@ -44,8 +36,8 @@ export default function AboutMe() {
           me a message about your project or some inspiration.{" "}
         </span>{" "}
       </div>{" "}
-      <div className="right">
-        <img src={dp} alt="" />
+      <div className='right'>
+        <img src={dp} alt='' />
       </div>{" "}
     </div>
   );

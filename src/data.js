@@ -47,3 +47,5 @@ export const Portfolio = {
     "A Portofolio website for developers to showoff their work, single page layout with website opening animations and all around animations",
   techUsed: ["JavaScript, ", "React, ", "Gsap, ", "Scss, "],
 };
+
+// export const
